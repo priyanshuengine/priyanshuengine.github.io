@@ -67,7 +67,16 @@ img {
   color: var(--dark-two);
   line-height: 1.6;
 }
-
+.head {
+  font-size: 1.90rem;
+  color: var(--dark-two);
+  line-height: 1.6;
+}
+.sub {
+  font-size: 1.18rem;
+  color: var(--dark-one);
+  line-height: 1.4;
+}
 .column-1 {
   margin-right: 1.5rem;
 }
@@ -1214,6 +1223,7 @@ header .circle {
 /* End Contact */
 
 /* Hire me */
+style
 
 .hireme {
   padding: 12rem 0;
