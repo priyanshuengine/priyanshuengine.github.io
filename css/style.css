@@ -73,7 +73,7 @@ img {
   line-height: 1.6;
 }
 .sub {
-  font-size: 1.18rem;
+  font-size: 1.11rem;
   color: var(--dark-one);
   line-height: 1.4;
 }
@@ -351,7 +351,7 @@ nav.open .links {
 }
 
 .header-title {
-  font-size: 3.8rem;
+  font-size: 2.8rem;
   line-height: 0.8;
   color: var(--dark-one);
 }
