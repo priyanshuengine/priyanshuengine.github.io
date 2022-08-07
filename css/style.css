@@ -68,12 +68,12 @@ img {
   line-height: 1.6;
 }
 .head {
-  font-size: 1.40rem;
+  font-size: 1.90rem;
   color: var(--dark-two);
   line-height: 1.6;
 }
 .sub {
-  font-size: 1.11rem;
+  font-size: 1.18rem;
   color: var(--dark-one);
   line-height: 1.4;
 }
@@ -351,9 +351,18 @@ nav.open .links {
 }
 
 .header-title {
-  font-size: 2.8rem;
-  line-height: 0.8;
+  font-size: 3.8rem;
+  line-height: 0.7;
   color: var(--dark-one);
+}
+.open{
+  font-size: 1.8rem;
+  line-height: 0.8;
+  color: var(--dark-two);
+  line-height: 1.5;
+}
+span{
+  color: var(--main-color)
 }
 
 .header-content .text {
