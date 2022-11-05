@@ -187,8 +187,19 @@ close_btn.addEventListener('click', () => {
 });
 
 
-});
+const $portfolioCarousel = document.querySelector(".glide.portfolio-carousel")
 
+new Glide($portfolioCarousel, {
+   type: "carousel",
+   gap: 0,
+   startAt: 1,
+   perView: 1,
+   autoplay: 3000,
+   hoverpause: true,
+   animationDuration: 1000
+}).mount()
+
+});
 
 
 
