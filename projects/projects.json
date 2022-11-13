@@ -91,7 +91,7 @@
   },
   {
     "name": "Payment Gateway Integration",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "desc": "This website is specially build to recieve payment using Razorpay.",
     "image": "payment",
     "category": "basicweb",
     "links": {
