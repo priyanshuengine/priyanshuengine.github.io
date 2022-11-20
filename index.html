@@ -138,91 +138,48 @@
 <!-- education section starts -->
 
 
+<section class="education" id="education">
+
   <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
-<div class="img-slider">
-  <div class="slide active">
-    <img src="assets/images/educat/aecc.png" alt="">
-    <div class="info">
-      
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/educat/aecc.jpg" alt="">
+        </div>
+        <div class="content">
+        <h3>Bachelor of Technology in Computer Science & Technology</h3>
+        <p>Asansol Engineering College | AEC</p>
+        <h4>2021-2025 | Pursuing</h4>
+        </div>
     </div>
-  </div>
-  <div class="slide">
-    <img src="assets/images/educat/gtb.png" alt="">
-    <div class="info">
-      
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/gtb.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>Senior Secondary Education</h3>
+      <p>Guru Teg Bahadur Public School | CBSE</p>
+      <h4>2019-2021 | Completed</h4>
+      </div>
     </div>
-  </div>
-  <div class="slide">
-    <img src="assets/images/educat/sj.png" alt="">
-    <div class="info">
-      
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/sj.png" alt="">
+      </div>
+      <div class="content">
+      <h3>Secondary Education</h3>
+      <p>St. Joseph Convent Higher Secondary School | ICSE</p>
+      <h4>2009-2019 | Completed</h4>
+      </div>
     </div>
-  </div>
-  
-  <div class="navigation">
-    <div class="btn active"></div>
-    <div class="btn"></div>
-    <div class="btn"></div>
-    <div class="btn"></div>
-    <div class="btn"></div>
-  </div>
+
 </div>
-
-<script type="text/javascript">
-var slides = document.querySelectorAll('.slide');
-var btns = document.querySelectorAll('.btn');
-let currentSlide = 1;
-
-// Javascript for image slider manual navigation
-var manualNav = function(manual){
-  slides.forEach((slide) => {
-    slide.classList.remove('active');
-
-    btns.forEach((btn) => {
-      btn.classList.remove('active');
-    });
-  });
-
-  slides[manual].classList.add('active');
-  btns[manual].classList.add('active');
-}
-
-btns.forEach((btn, i) => {
-  btn.addEventListener("click", () => {
-    manualNav(i);
-    currentSlide = i;
-  });
-});
-
-// Javascript for image slider autoplay navigation
-var repeat = function(activeClass){
-  let active = document.getElementsByClassName('active');
-  let i = 1;
-
-  var repeater = () => {
-    setTimeout(function(){
-      [...active].forEach((activeSlide) => {
-        activeSlide.classList.remove('active');
-      });
-
-    slides[i].classList.add('active');
-    btns[i].classList.add('active');
-    i++;
-
-    if(slides.length == i){
-      i = 0;
-    }
-    if(i >= slides.length){
-      return;
-    }
-    repeater();
-  }, 10000);
-  }
-  repeater();
-}
-repeat();
-</script>
-
+</section>
 
 <!-- work project section starts -->
 <section class="work" id="work">
