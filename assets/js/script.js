@@ -161,12 +161,12 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 // <!-- tilt js effect ends -->
 
 
-// pre loader start
+// pre loader starts
 // function loader() {
-//     document.querySelector('.loader-container').classList.add('fade-out');
+// document.querySelector('.loader-container').classList.add('fade-out');
 // }
 // function fadeOut() {
-//     setInterval(loader, 500);
+// setInterval(loader, 500);
 // }
 // window.onload = fadeOut;
 // pre loader end
@@ -245,7 +245,7 @@ srtop.reveal('.skills .container', { interval: 200 });
 srtop.reveal('.skills .container .bar', { delay: 400 });
 
 /* SCROLL EDUCATION */
-srtop.reveal('.education .box', { interval: 200 });
+srtop.reveal('.education .box', { interval: 100 });
 
 /* SCROLL PROJECTS */
 srtop.reveal('.work .box', { interval: 200 });
