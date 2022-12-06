@@ -16,6 +16,7 @@ Particle.js, Typed.js, Tilt.js, Scroll Reveal, Tawk.to, Font Awesome and JSON
 ## 📌 Sneak Peek of Main Page 🙈 :
 ![mockup720](https://github.com/priyanshuengine/priyanshuengine.github.io/blob/main/1.png)
 ![ss](https://github.com/priyanshuengine/priyanshuengine.github.io/blob/main/2.png)
+![ms](https://github.com/priyanshuengine/priyanshuengine.github.io/blob/main/3.png)
 
 
 <h2>📬 Contact</h2>
